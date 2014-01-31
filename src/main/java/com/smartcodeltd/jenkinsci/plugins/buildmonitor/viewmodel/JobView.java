@@ -127,6 +127,12 @@ public class JobView {
         return lastCompletedBuild().reasonForClaim();
     }
 
+    @JsonProperty
+    public String healthIconUrl() {
+        HealthReport report = this.job.getBuildHealth();
+         return report.getIconUrl("32x32");
+    }
+
     public String toString() {
         return name();
     }

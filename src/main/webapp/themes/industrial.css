@@ -158,6 +158,14 @@ h2 {
     content: "Possible Culprits: ";
 }
 
+.build-monitor ul#job-views li .meta .job-health img {
+    position:absolute;
+    float:right;
+    height:15%;
+    top:5px;
+    right:5px;
+}
+
 /*
  *   Layout
  */

@@ -9,6 +9,11 @@
 
         <div class="meta">
             <div class="latest-results">
+
+                <div class="job-health">
+                    <img src="{{job.healthIconUrl}}" />
+                </div>
+
                 <h2>
                     <a title="{{job.name}}"
                        href="{{job.url}}">{{job.name}}</a>
